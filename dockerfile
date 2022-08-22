@@ -1,4 +1,4 @@
 FROM node:alpine
-COPy . /
+COPY . /
 WORKDIR /
 CMD node main.js
